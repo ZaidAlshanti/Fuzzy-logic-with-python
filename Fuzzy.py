@@ -25,7 +25,6 @@ def get_fuzzy_values(x, y, z):
 
 
 def get_speed_and_rotation(left, centre, right):
-    # Binary input handling
         if (left == 1) and (centre == 1) and (right == 1):
             return 'Slow', 'TRB'
         elif (left == 1) and (centre == 1) and (right == 0):
